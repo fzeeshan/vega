@@ -12,7 +12,7 @@ import * as voronoi from 'vega-voronoi';
 import * as wordcloud from 'vega-wordcloud';
 import * as xf from 'vega-crossfilter';
 import * as label from 'vega-label';
-extend(transforms, tx, vtx, encode, geo, force, tree, voronoi, wordcloud, xf, {label: label.label});
+extend(transforms, tx, vtx, encode, geo, force, tree, voronoi, wordcloud, xf, label);
 
 // -- Exports -----
 
